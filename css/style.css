@@ -1,56 +1,52 @@
 /* General */
 body {
-  margin: 0;
-  padding: 0;
-  
+ /* margin: 0;
+  padding: 0;*/
   height: 100%;
-    background-image: url("../img/plantilla.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 100%;
+    background: url("../img/plantilla1.gif")no-repeat fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size: cover;*/
+    /*background-repeat: no-repeat;
+    background-size: cover;*/
 }
 
 /* Input Forms*/
 input[type="text"], input[type="password"]{
+  position: relative;
+  top: 10em;
   outline: none;
   padding: 20px;
   display: block;
-  width: 300px;
+  width: 400px;
   border-radius: 3px;
   border: 1px solid #eee;
-  margin: 20px auto;
+  margin: 25px auto;
 }
 
 input[type="submit"] {
+  position: relative;
+  top:10em;
   padding: 10px;
+  display: block;
   color: #fff;
-  background: #0098cb;
-  width: 320px;
+  background: #080896;
+  width: 400px;
   margin: 20px auto;
-  margin-top: 0;
+  /*margin-top: 0;*/
   border: 0;
   border-radius: 3px;
   cursor: pointer;
 }
 input[type="submit"]:hover {
-  background-color: #00b8eb;
+  background-color: #d00909;
 }
-
-/* Header */
-header {
-  border-bottom: 2px solid #eee;
-  padding: 20px 0;
-  margin-bottom: 10px;
-  width: 100%;
-  text-align: center;
+.titjef{
+  font-family: georgia;
+  font-size: 40px;
+  top: 4em;
+  left: 15em;
+  position: relative;
 }
-header a {
-  text-decoration: none;
-  color: #333;
-}
-
-.banner{
-  margin: 0;
-  padding: 0;
-}
-
-<!--Bostrap-->
