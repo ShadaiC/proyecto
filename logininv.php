@@ -16,7 +16,7 @@
     <div class="container">
       <h1 class="h1-jef">Investigador</h1>
      <!--<span>or <a href="signup.php">SignUp</a></span>s-->
-      <form action="verifinv.php" method="POST">
+      <form action="investigador.php" method="POST">
       <input name="email" type="text" placeholder="Enter your email">
       <input name="password" type="password" placeholder="Enter your Password">
       <input type="submit" value="Submit">

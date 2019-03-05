@@ -16,7 +16,7 @@
     <div class="container">
       <h1 class="h1-jef">Jefatura</h1>
     <!--<span>or <a href="signup.php">SignUp</a></span>-->
-    <form action="verifjef.php" method="POST">
+    <form action="jefatura.php" method="POST">
       <input name="email" type="text" placeholder="Enter your email">
       <input name="password" type="password" placeholder="Enter your Password">
       <input type="submit" value="Submit">

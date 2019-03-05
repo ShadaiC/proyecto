@@ -14,7 +14,7 @@
       $_SESSION['user_id'] = $results['id'];
       header("Location: /proyecto");
     } else {
-      $message = 'Sorry, those credentials do not match';
+      $message = 'Lo siento no puedes acceder';
     }
   }
 ?>
